@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace CuaHangDoChoi
 {
-    public partial class Form2 : Form
+    public partial class Form2 : 
     {
         public Form2()
         {
