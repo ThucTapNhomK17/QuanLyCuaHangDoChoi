@@ -42,7 +42,7 @@ namespace CuaHangDoChoi
             data.Load(dr);
             dataGridView1.DataSource = data;
         }
-
+        //them khach hang
         private void button1_Click(object sender, EventArgs e)
         {
             string insert = "insert into KhachHang values(@idKhachHang,@ten,@soDT,@diaChi)";
