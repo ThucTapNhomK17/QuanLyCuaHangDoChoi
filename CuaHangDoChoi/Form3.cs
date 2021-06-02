@@ -56,6 +56,7 @@ namespace CuaHangDoChoi
             HienThi();
         }
         //update 
+        
           private void button2_Click(object sender, EventArgs e)
             {
                 string update = "UPDATE KhachHang SET ten = @ten,soDT = @soDT,diaChi = @diaChi WHERE idKhachHang = @idKhachHang";
