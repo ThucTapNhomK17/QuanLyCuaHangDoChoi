@@ -55,18 +55,18 @@ namespace CuaHangDoChoi
             cmd.ExecuteNonQuery();
             HienThi();
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            string update = "UPDATE KhachHang SET ten = @ten,soDT = @soDT,diaChi = @diaChi WHERE idKhachHang = @idKhachHang";
-            SqlCommand cmd = new SqlCommand(update, connection);
-            cmd.Parameters.AddWithValue("ten", textBox2.Text);
-            cmd.Parameters.AddWithValue("soDT", textBox3.Text);
-            cmd.Parameters.AddWithValue("diaChi", textBox4.Text);
-            cmd.Parameters.AddWithValue("idKhachHang", textBox1.Text);
-            cmd.ExecuteNonQuery();
-            HienThi();
-        }
+        //update 
+          private void button2_Click(object sender, EventArgs e)
+            {
+                string update = "UPDATE KhachHang SET ten = @ten,soDT = @soDT,diaChi = @diaChi WHERE idKhachHang = @idKhachHang";
+                SqlCommand cmd = new SqlCommand(update, connection);
+                cmd.Parameters.AddWithValue("ten", textBox2.Text);
+                cmd.Parameters.AddWithValue("soDT", textBox3.Text);
+                cmd.Parameters.AddWithValue("diaChi", textBox4.Text);
+                cmd.Parameters.AddWithValue("idKhachHang", textBox1.Text);
+                cmd.ExecuteNonQuery();
+                HienThi();
+            }
 
         private void button3_Click(object sender, EventArgs e)
         {
