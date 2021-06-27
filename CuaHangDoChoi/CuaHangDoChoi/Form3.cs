@@ -142,7 +142,8 @@ namespace CuaHangDoChoi
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+          
+          private void button6_Click(object sender, EventArgs e)
         {
                 string search = "select * from KhachHang where ten like '%"+textBox7.Text+"%'";
                 SqlCommand cmd = new SqlCommand(search, connection);
