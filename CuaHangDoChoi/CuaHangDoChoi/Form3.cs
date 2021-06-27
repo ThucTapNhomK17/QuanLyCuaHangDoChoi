@@ -31,7 +31,7 @@ namespace CuaHangDoChoi
             InitializeComponent();
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-B8E9EA0\SQLEXPRESS01;Initial Catalog=CuaHangDoChoi;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-G3E7L6G\SQLEXPRESS;Initial Catalog=CuaHangDoChoi;Integrated Security=True");
         private void Form3_Load(object sender, EventArgs e)
         {
    

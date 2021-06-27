@@ -14,3 +14,19 @@ C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.
 C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form7.resources
 C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form10.resources
 C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.csprojAssemblyReference.cache
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\bin\Debug\CuaHangDoChoi.exe.config
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\bin\Debug\CuaHangDoChoi.exe
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\bin\Debug\CuaHangDoChoi.pdb
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.csprojAssemblyReference.cache
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form1.resources
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form10.resources
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form2.resources
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form3.resources
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form4.resources
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form6.resources
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form7.resources
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Properties.Resources.resources
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.csproj.GenerateResource.cache
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.csproj.CoreCompileInputs.cache
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.exe
+D:\nam3_2\Thực tập nhóm\QuanLyCuaHangDoChoi\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.pdb
