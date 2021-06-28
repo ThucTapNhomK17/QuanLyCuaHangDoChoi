@@ -13,12 +13,24 @@ namespace CuaHangDoChoi
 {
     public partial class Form10 : Form
     {
+
+        DataSet ds;
+
+        SqlDataAdapter dap;
+
+        private void LoadDuLieu(string sql)
+        {
+            ds = new DataSet();
+            dap = new SqlDataAdapter(sql, connection);
+            dap.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0];
+        }
         public Form10()
         {
             InitializeComponent();
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-G3E7L6G\SQLEXPRESS;Initial Catalog=CuaHangDoChoi;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-B8E9EA0\SQLEXPRESS01;Initial Catalog=CuaHangDoChoi;Integrated Security=True");
         private void button1_Click(object sender, EventArgs e)
         {
             string update = "UPDATE NhanVien SET username = @username,password = @password WHERE idNhanVien = @idNhanVien";
@@ -106,10 +118,39 @@ namespace CuaHangDoChoi
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            string sql = "select ten , username , password from NhanVien";
+            string dk = "";
+            if (textBox5.Text.Trim() != "")
+            {
+                dk += "username like '%" + textBox5.Text+"%'";
+            }
+            if (dk != "")
+            {
+                sql += " where " + dk;
+            }
+            LoadDuLieu(sql);
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            string update = "UPDATE NhanVien SET username = null,password = null where idNhanVien = @idNhanVien";
+            SqlCommand cmd = new SqlCommand(update, connection);
+            cmd.Parameters.AddWithValue("idNhanVien", textBox1.Text);
+            cmd.ExecuteNonQuery();
+            HienThi();
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }

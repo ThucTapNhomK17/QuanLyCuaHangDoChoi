@@ -32,7 +32,7 @@ namespace CuaHangDoChoi
             InitializeComponent();
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-G3E7L6G\SQLEXPRESS;Initial Catalog=CuaHangDoChoi;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-B8E9EA0\SQLEXPRESS01;Initial Catalog=CuaHangDoChoi;Integrated Security=True");
         private void Form7_Load(object sender, EventArgs e)
         {
             connection.Open();
@@ -127,10 +127,9 @@ namespace CuaHangDoChoi
 
         private void button6_Click(object sender, EventArgs e)
         {
-            string update = "update MuaSanPham set thanhTien = (select(sp.giaTien * msp.soLuong) from SanPham sp , MuaSanPham msp, KhachHang kh where sp.idSanPham = msp.idSanPham and kh.idKhachHang = msp.idKhachHang and msp.idMua = @idMua)";
+            string update = "update MuaSanPham set thanhTien = (select(sp.giaTien * msp.soLuong) from SanPham sp , MuaSanPham msp, KhachHang kh where sp.idSanPham = msp.idSanPham and kh.idKhachHang = msp.idKhachHang and msp.idMua = @idMua) where idMua = @idMua";
             SqlCommand cmd = new SqlCommand(update, connection);
             cmd.Parameters.AddWithValue("idMua", textBox6.Text);
-
             cmd.ExecuteNonQuery();
             HienThi();
         }
@@ -142,7 +141,14 @@ namespace CuaHangDoChoi
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            string update = "update MuaSanPham set idKhachHang = @idKhachHang , idSanPham = @idSanPham , soLuong = @soLuong where idMua = @idMua";
+            SqlCommand cmd = new SqlCommand(update, connection);
+            cmd.Parameters.AddWithValue("idMua", textBox6.Text);
+            cmd.Parameters.AddWithValue("idKhachHang", textBox1.Text);
+            cmd.Parameters.AddWithValue("idSanPham", textBox2.Text);
+            cmd.Parameters.AddWithValue("soLuong", textBox3.Text);
+            cmd.ExecuteNonQuery();
+            HienThi();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -235,6 +241,26 @@ namespace CuaHangDoChoi
             this.Hide();
             Form10 form10 = new Form10();
             form10.Show();
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

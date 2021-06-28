@@ -31,7 +31,7 @@ namespace CuaHangDoChoi
             InitializeComponent();
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-G3E7L6G\SQLEXPRESS;Initial Catalog=CuaHangDoChoi;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-B8E9EA0\SQLEXPRESS01;Initial Catalog=CuaHangDoChoi;Integrated Security=True");
         private void Form3_Load(object sender, EventArgs e)
         {
    
@@ -142,8 +142,7 @@ namespace CuaHangDoChoi
 
         }
 
-          
-          private void button6_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
                 string search = "select * from KhachHang where ten like '%"+textBox7.Text+"%'";
                 SqlCommand cmd = new SqlCommand(search, connection);
@@ -230,11 +229,6 @@ namespace CuaHangDoChoi
             this.Hide();
             Form10 form10 = new Form10();
             form10.Show();
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
