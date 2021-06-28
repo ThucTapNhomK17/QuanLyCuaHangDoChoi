@@ -1,0 +1,16 @@
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form1.resources
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Properties.Resources.resources
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\bin\Debug\CuaHangDoChoi.exe.config
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\bin\Debug\CuaHangDoChoi.exe
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\bin\Debug\CuaHangDoChoi.pdb
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.exe
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.pdb
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form2.resources
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form3.resources
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form4.resources
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form6.resources
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form7.resources
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.Form10.resources
+C:\Users\Admin\source\repos\CuaHangDoChoi\CuaHangDoChoi\obj\Debug\CuaHangDoChoi.csprojAssemblyReference.cache
