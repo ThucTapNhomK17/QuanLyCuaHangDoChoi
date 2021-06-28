@@ -231,5 +231,10 @@ namespace CuaHangDoChoi
             Form10 form10 = new Form10();
             form10.Show();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
